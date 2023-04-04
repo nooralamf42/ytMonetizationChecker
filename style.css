@@ -69,7 +69,6 @@ img{
 @media (max-width: 505px) {
 
     button{
-        padding: 8px 6px;
-        font-size: .8rem;
+        padding: 12px 8px;
     }
 }
