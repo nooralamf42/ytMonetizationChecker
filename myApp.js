@@ -15,7 +15,7 @@ getInfoBtn.onclick = () => {
 // function to get data
 
 getData = () => {
-if(channelLink.value.includes("https://www.youtube.com/")){
+if(channelLink.value.includes("youtube.com/")){
     fetch('https://api.codetabs.com/v1/proxy?quest=' + channelLink.value)
     .then((response) => {
     return response.text();
