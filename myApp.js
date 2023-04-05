@@ -44,7 +44,7 @@ else{
 
 // to disable right click on body
 
-window.addEventListener("contextmenu", (e) => e.preventDefault())
+// window.addEventListener("contextmenu", (e) => e.preventDefault())
 
 
 // pasting link on right click on input field
