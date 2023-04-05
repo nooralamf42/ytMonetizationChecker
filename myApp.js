@@ -49,11 +49,11 @@ else{
 
 // pasting link on right click on input field
 
-channelLink.addEventListener("contextmenu", () => {
-navigator.clipboard
-.readText()
-.then(
-    cliptext =>
-        (channelLink.value = cliptext),
-);
-})
+// channelLink.addEventListener("contextmenu", () => {
+// navigator.clipboard
+// .readText()
+// .then(
+//     cliptext =>
+//         (channelLink.value = cliptext),
+// );
+// })
