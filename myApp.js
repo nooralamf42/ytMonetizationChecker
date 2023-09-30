@@ -28,18 +28,18 @@ if(channelLink.value.includes("youtube.com/")){
     }).then((data) => {
         loadingCircle.classList.add("hideImg")
     if (data.includes('"key":"is_monetization_enabled","value":"true"')){
-        audio.src = "mon.mp3"
+        audio.src = "cash-register-purchase-87313.mp3"
         audio.play()
         messegeImg.classList.remove("hideImg")
-        messegeImg.src = "https://media.tenor.com/E6WSW38Kn94AAAAC/kbc-great.gif"
-        output.innerHTML = "Channel is <span style='color: rgb(22, 188, 0);'>monetized</span>"
+        messegeImg.src = "https://media.giphy.com/media/SBAToc4g0h89W/giphy.gif"
+        output.innerHTML = "Channel is <span style='color: #10b981;'>MONETIZED!!</span>"
     }
     else{
-        audio.src = "notMon.mp3"
+        audio.src = "boo-36556.mp3"
         audio.play()
         messegeImg.classList.remove("hideImg")
-        messegeImg.src = "https://media.tenor.com/ciNDyf6AgH0AAAAd/disappointed-disappointed-fan.gif"
-        output.innerHTML = "Channel is <span style='color: rgb(255, 36, 36);'>not monetized</span>"
+        messegeImg.src = "https://media.giphy.com/media/l0IsI3mebkE6yiig8/giphy.gif"
+        output.innerHTML = "Channel is <span style='color: #f43f5e;'>NOT MONETIZED!!</span>"
 
     }
 })
