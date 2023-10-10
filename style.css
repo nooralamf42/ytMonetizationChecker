@@ -70,6 +70,23 @@ img {
     display: none;
 }
 
+.recentbtn {
+    position: absolute;
+    left: 0;
+    top: 40vh;
+    background-color: #030712;
+    padding: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.recentbtn:hover {
+    background-color: #000;
+}
+
 @media (max-width: 915px) {
     input {
         width: 60%;
